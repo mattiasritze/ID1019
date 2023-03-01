@@ -1,0 +1,21 @@
+# Untitled notebook
+
+## Section
+
+```elixir
+File.open("../README.md")
+```
+
+```elixir
+ExUnit.start(autorun: false)
+
+defmodule MyTest do
+  use ExUnit.Case, async: true
+
+  test "it works" do
+    assert true
+  end
+end
+
+ExUnit.run()
+```
